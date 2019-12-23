@@ -3,4 +3,4 @@ project(apue C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(apue main.c apue.h ls.c)
+add_executable(apue main.c apue.h ls.c apue_error.c apue_log.c)
