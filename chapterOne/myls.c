@@ -2,9 +2,9 @@
 // Created by 张耀文 on 2019/12/21.
 //
 
-#include "apue.h"
+#include "../common/apue.h"
 #include <dirent.h>
-#include "apue_error.h"
+#include "../common/apue_error.h"
 
 int main(int argc, char *argv[])
 {

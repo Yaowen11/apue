@@ -2,7 +2,7 @@
 // Created by yaowen on 2019/12/23.
 //
 
-#include "../apue.h"
+#include "../common/apue.h"
 
 int main(void)
 {

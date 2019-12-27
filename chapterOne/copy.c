@@ -2,8 +2,8 @@
 // Created by yaowen on 2019/12/23.
 //
 
-#include "../apue.h"
-#include "../apue_error.h"
+#include "../common/apue.h"
+#include "../common/apue_error.h"
 #define BUFFSIZE 8192
 
 int main(void)
