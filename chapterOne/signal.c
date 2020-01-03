@@ -6,7 +6,7 @@
 #include "../common/apue_error.h"
 #include <sys/wait.h>
 
-static void sig_int(int);
+static void sigInt(int);
 
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
     pid_t pid;
     int status;
 
-    if (signal(SIGINT, sig_int) == SIG_ERR)
+    if (signal(SIGINT, sigInt) == SIG_ERR)
         err_sys("signal error");
 
     printf("%% ");
@@ -35,7 +35,7 @@ int main(void)
     exit(0);
 }
 
-void sig_int(int signo)
+void sigInt(int signo)
 {
     printf("interrupt process \n%% ");
 }
